@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rorymarks", "Rorymarks\Rorymarks.csproj", "{6D80749C-F7EE-431F-8714-DB9605955A3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoryMarks", "RoryMarks\RoryMarks.csproj", "{10D92E88-FBA0-4AF1-B673-CCA3E6F1FD27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6D80749C-F7EE-431F-8714-DB9605955A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D80749C-F7EE-431F-8714-DB9605955A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D80749C-F7EE-431F-8714-DB9605955A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D80749C-F7EE-431F-8714-DB9605955A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D92E88-FBA0-4AF1-B673-CCA3E6F1FD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D92E88-FBA0-4AF1-B673-CCA3E6F1FD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D92E88-FBA0-4AF1-B673-CCA3E6F1FD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D92E88-FBA0-4AF1-B673-CCA3E6F1FD27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {075A5782-A6FC-4403-B24A-40A3773B2C97}
+		SolutionGuid = {DA077D54-2EA0-497B-8DCA-AAF9CBD89F74}
 	EndGlobalSection
 EndGlobal
