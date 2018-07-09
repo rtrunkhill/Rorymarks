@@ -15,6 +15,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Bookmark)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TopicID)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -23,6 +26,9 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Bookmark)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopicID)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |

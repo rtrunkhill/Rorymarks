@@ -53,7 +53,7 @@ namespace RoryMarks.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Bookmark")] Bookmarks bookmarks)
+        public async Task<IActionResult> Create([Bind("ID,Bookmark,TopicID")] Bookmarks bookmarks)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace RoryMarks.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Bookmark")] Bookmarks bookmarks)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Bookmark,TopicID")] Bookmarks bookmarks)
         {
             if (id != bookmarks.ID)
             {

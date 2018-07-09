@@ -19,6 +19,11 @@
                 <span asp-validation-for="Bookmark" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="TopicID" class="control-label"></label>
+                <input asp-for="TopicID" class="form-control" />
+                <span asp-validation-for="TopicID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-default" />
             </div>
         </form>
