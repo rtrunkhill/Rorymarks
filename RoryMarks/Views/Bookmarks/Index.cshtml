@@ -16,7 +16,7 @@
                 @Html.DisplayNameFor(model => model.Bookmark)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Topic.Title)
+                @Html.DisplayNameFor(model => model.TopicID)
             </th>
             <th></th>
         </tr>
@@ -28,8 +28,8 @@
                 @Html.DisplayFor(modelItem => item.Bookmark)
             </td>
             <td>
-                 @Html.DisplayFor(modelItem => item.TopicID)
-</td>
+                @Html.DisplayFor(modelItem => item.TopicID)
+            </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.ID">Details</a> |

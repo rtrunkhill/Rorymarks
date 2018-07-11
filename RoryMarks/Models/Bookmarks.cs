@@ -11,6 +11,6 @@ namespace RoryMarks.Models
         public string Bookmark { get; set; }
 
         public string TopicID { get; set; }
-        public virtual Topic Topic { get; set; }
+        public Topic Topic { get; set; }
     }
 }

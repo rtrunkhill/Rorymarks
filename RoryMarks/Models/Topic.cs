@@ -10,7 +10,7 @@ namespace RoryMarks.Models
         public int ID { get; set; }
         public string Title { get; set; }
 
-        public virtual ICollection<Bookmarks> Bookmarks { get; set; }
+        public ICollection<Bookmarks> Bookmarks { get; set; }
     }
 
 }
